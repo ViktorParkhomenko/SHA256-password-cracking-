@@ -11,3 +11,11 @@ By automating the cracking process, this project demonstrates how password hashe
 Let's generate the SHA-256 hash for the password 'alaska' from the rockyou.txt wordlist and then pass that hash into our script
 
 ![Screenshot_2024-11-27_15-41-16](https://github.com/user-attachments/assets/34948c79-c428-4015-b746-3a21019259a5)
+
+By executing this script, it will convert the provided hash back into the corresponding password.
+
+![Screenshot_2024-11-27_15-55-21](https://github.com/user-attachments/assets/ca8f5ff2-3b7b-451b-ad73-1a3802808a1e)
+
+Conclusion
+This project illustrates how dictionary-based brute-force attacks can be used to break SHA-256 hashes, emphasizing the risks associated with weak or commonly used passwords. Using Python, pwntools
+
