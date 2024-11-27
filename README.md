@@ -8,8 +8,6 @@ By automating the cracking process, this project demonstrates how password hashe
 
 ![Screenshot_2024-11-27_15-10-56](https://github.com/user-attachments/assets/142b2f25-bc7a-4e53-89ad-a9258b810a16)
 
-from pwn import * imports all functions and classes from the pwntools library, which is widely used in security research and exploit development for tasks like binary exploitation, networking, and scripting CTF challenges.
+Let's generate the SHA-256 hash for the password 'alaska' from the rockyou.txt wordlist and then pass that hash into our script
 
-import sys imports the sys module, which provides access to system-specific parameters and functions, such as command-line arguments (sys.argv) and system exit functions (sys.exit).
-
-This Python script is designed to brute-force a SHA-256 hashed password using the rockyou.txt wordlist. It checks the number of arguments passed to the script and prints an error message if the input is invalid. The script then reads each password from the wordlist, hashes it using SHA-256, and compares the hash with the target hash provided as a command-line argument. If a match is found, it prints a success message and stops the program, displaying the number of attempts made. If no match is found after trying all passwords, it prints a failure message indicating that the hash could not be cracked.
+![Screenshot_2024-11-27_15-41-16](https://github.com/user-attachments/assets/34948c79-c428-4015-b746-3a21019259a5)
