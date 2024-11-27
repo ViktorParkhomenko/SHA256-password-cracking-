@@ -8,7 +8,7 @@ By automating the cracking process, this project demonstrates how password hashe
 
 ![Screenshot_2024-11-27_15-10-56](https://github.com/user-attachments/assets/142b2f25-bc7a-4e53-89ad-a9258b810a16)
 
-Let's generate the SHA-256 hash for the password 'alaska' from the rockyou.txt wordlist and then pass that hash into our script
+Let's generate the SHA-256 hash for the password 'kali' from the rockyou.txt wordlist and then pass that hash into our script
 
 ![Screenshot_2024-11-27_15-41-16](https://github.com/user-attachments/assets/34948c79-c428-4015-b746-3a21019259a5)
 
